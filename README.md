@@ -1,6 +1,6 @@
 <h1>Sorteador de Números</h1>
 <h2>🔖 Sobre</h2>
-<p>Projeto utilizadondo lógica de programação com as linguagem Javascript.</p>
+<p>Projeto utilizadondo lógica de programação com as linguagem HTML, CSS e Javascript.</p>
 ## 🚀 Tecnologias
 <div>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
