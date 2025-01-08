@@ -12,7 +12,7 @@ function sortear() {
     //proteção, garantir que o intervalo seja maior que a quantidade de números
     let intervalo = ate - de;
 
-    if (intervalo < quantidade) {
+    if (intervalo <= quantidade) {
         alert('O intervalo de números é menor que o campo "Quantidade de números" Verifique!')
         return;
     }
