@@ -8,6 +8,14 @@ function sortear() {
         alert('Campo "Do número" deve ser inferior ao campo "Até o número". Verifique!');
         return;
       }
+    
+    //proteção, garantir que o intervalo seja maior que a quantidade de números
+    let intervalo = ate - de;
+
+    if (intervalo < quantidade) {
+        alert('O intervalo de números é menor que o campo "Quantidade de números" Verifique!')
+        return;
+    }
 
     let sorteados = [];
     let numero;
